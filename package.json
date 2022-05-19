@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby develop",
+    "start": "gatsby develop -H 0.0.0.0",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
@@ -30,7 +30,6 @@
     "react-icons": "^4.3.1"
   },
   "devDependencies": {
-    "@tailwindcss/aspect-ratio": "^0.4.0",
     "autoprefixer": "^10.4.7",
     "gatsby-plugin-postcss": "^5.14.0",
     "postcss": "^8.4.14",

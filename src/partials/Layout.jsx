@@ -19,7 +19,7 @@ export default function Layout({ children }) {
           data-aos='fade-up'
           data-aos-duration='800'
           data-aos-delay='400'
-          className='max-w-4xl text-lg text-gray-600 leading-relaxed mx-4 sm:ml-8'
+          className='max-w-4xl text-lg text-gray-600 leading-relaxed mx-8 sm:ml-8'
         >
           {children}
         </main>
